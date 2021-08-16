@@ -1,9 +1,11 @@
-# Accelerating Kubernetes Onboarding and Application Transformation
+# accelerating kubernetes onboarding and application transformation  
+
 This repository provides the content of a webinar held by StorageOS on August 18th 2021.   
 
 The content is for educational purposes, tested on Google Cloud and can be reused freely as-is.   
 
-## legacy infra
+## legacy infra  
+
 To illustrate the application transformation, or moving from a bare metal/virtual machine based deployment to a microservice one, a typical multi-tenant CMS like Druapl fits perfectly the example. 
 
 ```
