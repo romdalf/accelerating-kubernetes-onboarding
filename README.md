@@ -15,5 +15,5 @@ To illustrate the application transformation, or moving from a bare metal/virtua
                               site04                                     sitedb04
                               site05                                     sitedb05     
 ```
-The above model can 
+The above is a simplier version of something commonly seen within medium to large companies especially using a hypervisor providing the necessary features to support business continuity. 
 
