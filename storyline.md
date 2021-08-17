@@ -11,28 +11,30 @@ including potential deployments with Ansible, XLRelease
 including storage and backup solutions for BCP                          10min 
 
     Q&A - Presenting a traditional CRM deployed on 2 VMs                          
-    - What is the difference between a lift and shift version refactoring?
+    - What is a lift and shift?
+    - What are the options for a lift and shift? 
+    - Other options are refactoring and modernization. What are the differences?
     - How can an organization make a decision regarding one or the other?
     - If a lift and shift is done, is it forever? 
-    - Would you consider doing a lift and shift using kubvirt? 
 
 Presenting a microservice version to migrate the CRMs         
 - drupal + postgresql 
 -- 5 sites in one instance becomes 5 drupal workloads 
 -- 5 DBs in one instance become 5 postgresql workloads                  
-including deployment strategies                                         5min 
-
-    Q&A - Presenting a microservice version to migrate the CRMs         
-    - Considering the current setup, why would it be better to split the sites into dedicated workload?
-    - What not splitting the sites in dedicated workload have an impact? 
-    - What is the concept of deployment strategies? Why should we care? 
 
 including DevOps practices like IaC and GitOps                          10min 
-
     Q&A - DevOps practices
     - There is a lot of buzz around Agile and DevOps. Can a non Agile organization benefit of Kubernetes? 
-    - Starting with the basics, IaC and GitOps are almost mandatory, why?
+    - Starting with the basics, IaC and GitOps are almost mandatory, why? 
     - What are the benefits of using such practices? 
+
+including deployment strategies                                         5min 
+    Q&A - Presenting a microservice version to migrate the CRMs
+    - Why Kubernetes? 
+    - Considering the current setup, why would it be better to split the sites into dedicated workload?
+    - What not splitting the sites in dedicated workload would have an impact? 
+    - What is the concept of deployment strategies? 
+    - Why should we care? 
 
 Presenting persistent data challenges due to k8s design
 - storage type (block, file, object)
@@ -48,6 +50,9 @@ Presenting persistent data challenges due to k8s design
     - What the major differences between traditional environment/VM or bare metal based backups vs k8s?
 
 Reminding the audience of the key take away
-Q&A         
+Q&A 
+
+
+
 
 ``` 
