@@ -12,6 +12,14 @@ including storage and backup solutions for BCP                          10min
 
     Q&A - Presenting a traditional CRM deployed on 2 VMs                          
     - What is a lift and shift?
+    https://www.gartner.com/smarterwithgartner/7-options-to-modernize-legacy-systems/
+    Rehost. Redeploy the application component to other infrastructure (physical, virtual or cloud) without modifying its code, features or functions.
+Replatform. Migrate to a new runtime platform, making minimal changes to the code, but not the code structure, features or functions
+
+Rearchitect. Materially alter the code to shift it to a new application architecture and exploit new and better capabilities. 
+Rebuild. Redesign or rewrite the application component from scratch while preserving its scope and specifications.
+Replace. Eliminate the former application component altogether and replace it, considering new requirements and needs at the same time.
+
     - What are the options for a lift and shift? 
     - Other options are refactoring and modernization. What are the differences?
     - How can an organization make a decision regarding one or the other?
