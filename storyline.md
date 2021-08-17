@@ -4,24 +4,29 @@ Introduction of the hosts
 Overview of the agenda along with key take away                         5min 
 
 Presenting a traditional CRM deployed on 2 VMs                          
-- based on drupal + mysql 
-- 5 sites within one drupal instance
-- 5 DBs within one mysql instance 
+ - based on drupal + mysql 
+ - 5 sites within one drupal instance
+ - 5 DBs within one mysql instance 
 including potential deployments with Ansible, XLRelease
 including storage and backup solutions for BCP                          10min 
 
     Q&A - Presenting a traditional CRM deployed on 2 VMs                          
-    - What is a lift and shift?
-    https://www.gartner.com/smarterwithgartner/7-options-to-modernize-legacy-systems/
-    Rehost. Redeploy the application component to other infrastructure (physical, virtual or cloud) without modifying its code, features or functions.
-Replatform. Migrate to a new runtime platform, making minimal changes to the code, but not the code structure, features or functions
 
+ - What is a lift and shift?
+	 - **Lift and Shift :** mainly is to move applications to other infrastructure (physical, virtual or cloud) without modifying its code, features or functions.
+- What are the options for a lift and shift? 
+	- Actually i like [Gartner article "7 Options to Modernize Legacy Systems"](https://www.gartner.com/smarterwithgartner/7-options-to-modernize-legacy-systems/)
+    According to Gartner, The two main options are;
+    **Rehost.** Redeploy the application component to other infrastructure (physical, virtual or cloud) without modifying its code, features or functions.
+    **Replatform.** Migrate to a new runtime platform, making minimal changes to the code, but not the code structure, features or functions. Like migrating the runtime  to container runtime like docker, containerd, or CRI-O, but without touching the application itself.
+    
+    - Other options are refactoring and modernization. What are the differences?
+    Refactoring is mainly modfiying the code to "some extent" to accomodate the new runtime capabilities.
+   This can be 
 Rearchitect. Materially alter the code to shift it to a new application architecture and exploit new and better capabilities. 
 Rebuild. Redesign or rewrite the application component from scratch while preserving its scope and specifications.
 Replace. Eliminate the former application component altogether and replace it, considering new requirements and needs at the same time.
-
-    - What are the options for a lift and shift? 
-    - Other options are refactoring and modernization. What are the differences?
+    
     - How can an organization make a decision regarding one or the other?
     - If a lift and shift is done, is it forever? 
 
@@ -59,8 +64,3 @@ Presenting persistent data challenges due to k8s design
 
 Reminding the audience of the key take away
 Q&A 
-
-
-
-
-``` 
