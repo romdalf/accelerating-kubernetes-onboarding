@@ -18,3 +18,30 @@ This is the starting point from the webinar, an existing workload that is curren
 ```
 The above is a simplier version of something commonly seen within medium to large companies especially using a hypervisor providing the necessary features to support business continuity. 
 
+
+## kubernetes infra
+
+```
+                                                  
+                              Drupal Front-End                            MySQL Back-End
+                         
+                   |---------- service-01               StatefulSet-01                         
+                   |                     site01                                     sitedb01
+                   |---------- service-02               StatefulSet-02
+                   |                     site02                                     sitedb02
+      LoadBalancer |---------- service-03               StatefulSet-03
+                   |                     site03                                     sitedb03
+                   |---------- service-04               StatefulSet-04
+                   |                     site04                                     sitedb04
+                   |---------- service-05               StatefulSet-05
+                                         site05                                     sitedb05     
+
+
+```
+
+
+
+
+
+
+
