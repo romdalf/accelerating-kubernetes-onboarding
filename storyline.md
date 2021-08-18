@@ -79,10 +79,10 @@ including deployment strategies                                         5min
 - What is the concept of deployment strategies?
   - Deployment Strategy is the techniques of how a new release of the application affect continuity of the application downtime and last-minute failure or rollback. Take for example the typical case where you bring your previous version down, and do the midnight down time to deploy an new version.
   Most famous deployment strategies
-    - Recreate: Version A is terminated then version B is rolled out.
-    - Rolling-update: Version B is slowly rolled out and replacing version A. So at some point both versions are running.
-    - Blue/Green: Version B is released alongside version A, then the traffic is switched to version B. Useful in case of the need to quickly roll back.
-    - Canary: Version B is released to a subset of users, then proceed to a full rollout. the canary technique targets certain users to receive access to the new application version, rather than certain servers in the Rolling-update technique.
+    - **Recreate**: Version A is terminated then version B is rolled out.
+    - **Rolling-update**: Version B is slowly rolled out and replacing version A. So at some point both versions are running.
+    - **Blue/Green**: Version B is released alongside version A, then the traffic is switched to version B. Useful in case of the need to quickly roll back.
+    - **Canary**: Version B is released to a subset of users, then proceed to a full rollout. the canary technique targets certain users to receive access to the new application version, rather than certain servers in the Rolling-update technique.
 
 - Why should we care?
   - Business continuity is one of the main reason for advancing IT industry. So the less downtime and the agility of deployment techniques is very critical for business.
