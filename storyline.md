@@ -11,7 +11,7 @@ including potential deployments with Ansible, XLRelease
 including storage and backup solutions for BCP                          10min
 
 Presenting a traditional CRM deployed on 2 VMs                          
- 
+
 **Q&A**
  - What is a lift and shift?
 	 - **Lift and Shift :** mainly is to move applications to other infrastructure (physical, virtual or cloud) without modifying its code, features or functions.
@@ -40,7 +40,7 @@ Presenting a microservice version to migrate the CRMs
 -- 5 DBs in one instance become 5 postgresql workloads                  
 
 including DevOps practices like IaC and GitOps                          10min
-    
+
 **Q&A**
 - There is a lot of buzz around Agile and DevOps. Can a non Agile organization benefit of Kubernetes?
 
@@ -57,30 +57,53 @@ including DevOps practices like IaC and GitOps                          10min
 
 - Why Kubernetes?
 
-- Starting with the basics, IaC and GitOps are almost mandatory, why?
+  - [**Infrastructure Elasticity & self healing**](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/), is the magic word. K8s provides an easy way to scale applications, it restarts containers that fail, replaces containers, kills containers that don't respond to your user-defined health check, and doesn't advertise them to clients until they are ready to serve.
 
-- What are the benefits of using such practices?
 
 including deployment strategies                                         5min
-    Q&A - Presenting a microservice version to migrate the CRMs
-    
-    - Considering the current setup, why would it be better to split the sites into dedicated workload?
-    - What not splitting the sites in dedicated workload would have an impact?
-    - What is the concept of deployment strategies?
-    - Why should we care?
+
+- Presenting a microservice version to migrate the CRMs
+
+**Q&A**
+
+- Considering the current setup, why would it be better to split the sites into dedicated workload?
+
+  - One of the main characteristics of microservices is [Single Responsibility Principle](https://microservices.io/patterns/decomposition/decompose-by-business-capability)
+
+    > A service must be small enough to be developed by a small team and to be easily tested. A useful guideline from object-oriented design (OOD) is the Single Responsibility Principle (SRP). The SRP defines a responsibility of a class as a reason to change, and states that a class should only have one reason to change. It make sense to apply the SRP to service design as well and design services that are cohesive and implement a small set of strongly related functions.
+
+- What not splitting the sites in dedicated workload would have an impact?
+
+  - Modification of any site will impact rest of sites. Release of any site may cause down time for other independent sites.
+
+- What is the concept of deployment strategies?
+  - Deployment Strategy is the techniques of how a new release of the application affect continuity of the application downtime and last-minute failure or rollback. Take for example the typical case where you bring your previous version down, and do the midnight down time to deploy an new version.
+  Most famous deployment strategies
+    - **Recreate**: Version A is terminated then version B is rolled out.
+    - **Rolling-update**: Version B is slowly rolled out and replacing version A. So at some point both versions are running.
+    - **Blue/Green**: Version B is released alongside version A, then the traffic is switched to version B. Useful in case of the need to quickly roll back.
+    - **Canary**: Version B is released to a subset of users, then proceed to a full rollout. the canary technique targets certain users to receive access to the new application version, rather than certain servers in the Rolling-update technique.
+
+- Why should we care?
+  - Business continuity is one of the main reason for advancing IT industry. So the less downtime and the agility of deployment techniques is very critical for business.
 
 Presenting persistent data challenges due to k8s design
 - storage type (block, file, object)
 - access mode (rwo, rwx, rox)
 - data migration approaches
 - backup                                                                10min
+Presenting persistent data challenges due to k8s design
 
-    Q&A - Presenting persistent data challenges due to k8s design
-    - Why is persistent data important?
-    - What are the different storage type and their usage?
-    - In k8s, there is the concept of access mode? What are the differences between each others?
-    - Migrating data is a pain. Is it different with k8s?
-    - What the major differences between traditional environment/VM or bare metal based backups vs k8s?
+**Q&A**
+- Why is persistent data important?
+
+- What are the different storage type and their usage?
+
+- In k8s, there is the concept of access mode? What are the differences between each others?
+
+- Migrating data is a pain. Is it different with k8s?
+
+- What the major differences between traditional environment/VM or bare metal based backups vs k8s?
 
 Reminding the audience of the key take away
 Q&A
