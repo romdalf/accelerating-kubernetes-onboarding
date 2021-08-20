@@ -1,7 +1,23 @@
 # accelerating kubernetes onboarding and application transformation  
 
-This repository provides the content of a webinar held by StorageOS on August 18th 2021.   
-The content is for educational purposes, tested on Google Cloud and can be reused freely as-is.   
+
+## intro
+This repository provides the content of a conversation led webinar between Raif and Rom held by StorageOS on August 18th 2021 about how to onboarding Kubernetes within an organization and what application transformation means.
+
+The content is for educational purposes, tested on Google Cloud and can be reused freely as-is. Both Red Hat Services and StorageOS Customer Success are available to provide the audience with the supporting experience in such journey. 
+
+## context
+
+The webinar addressses a series of questions that are commonly discussed within customers and partners workshops. The repository is presenting additional content to highlight the talking points of the webinar.
+
+## transformation
+
+Before deploying Kubernetes and deploying a first workload, it is important to address terminology, concepts and practices for a successful transformation.
+
+### application transformation
+
+One of the most heard terms or concept when speaking about application transformation is "Lift and Shift". The concept of "Lift and Shift" is moving an application from one infrastructure to another. The is also popular for infrastructure components like traditional/legacy storage vendors migrating data set from one platform to another (same or different vendor as target).
+
 
 ## legacy infra  
 
