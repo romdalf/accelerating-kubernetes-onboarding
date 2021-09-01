@@ -1,7 +1,17 @@
 # Accelerating kubernetes onboarding and application transformation  
 
 Table of Content:
-[Intro](#intro)
+* [Intro](#intro)
+* [Context](#context)
+* [Why Kubernetes](#why-kubernetes)
+* [Mordernizing legacy systems](#modernizing-legacy-systems)
+     * [Lift and shift](#lift-and-shift)
+     * [Application modernization](#application-modernization)
+     * [Which approach](#which-approach)
+* [Practices](#practices)
+     * [Agile](#agile)
+     * [DevOps](#devops)
+* []() 
 
 ## Intro
 This repository provides the content of a conversation led webinar between Raif and Rom held by StorageOS on August 18th 2021 about how to onboarding Kubernetes within an organization and what application transformation means.
