@@ -74,6 +74,17 @@ From the Wikipedia definition of [DevOps](https://en.wikipedia.org/wiki/DevOps),
 
 When both Agile and DevOps are combined and adopted, an organization can then quickly react to changes by having a flexible IT landscape along with short development and delivery cycles which correspond to the Kubernetes mission statement. 
 
+### mandatory practices
+[Dozens if not hundreds of practices](https://openpracticelibrary.com/) exist and could help teams to build faster. However, it's important to start walking before running. Therefor, these two practices will be a perfect starting point for a smooth adoption of Kubernetes, and Agiles and DevOps practices.
+
+#### IaC
+IaC or [Infrastructure as Code](https://en.wikipedia.org/wiki/Infrastructure_as_code) provides a centralized reference of all the configuration files defining the desired state of any infrastructure components related to Kubernetes or not, and a collaborative way for members of one or multiple teams to review, approve, and carry changes to the infrastructure. 
+The practices will depend on a Git service that will act as a central repository providing the necessary features to support to [four eyes principle](https://www.openriskmanual.org/wiki/Four_Eyes_Principle).
+
+
+
+
+
 ### application transformation
 
 One of the most heard terms or concept when speaking about application transformation is "Lift and Shift". The concept of "Lift and Shift" is moving an application from one infrastructure to another. The is also popular for infrastructure components like traditional/legacy storage vendors migrating data set from one platform to another (same or different vendor as target).
