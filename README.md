@@ -10,6 +10,11 @@ The content is for educational purposes, is linked to field experience, and, for
 
 The webinar addressses a series of questions that are commonly discussed within customers and partners workshops. The repository is presenting additional content to highlight the talking points of the webinar.
 
+## why kubernetes
+
+[Infrastructure Elasticity & self healing](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/) are the magic words. Kubernetes provides an easy way to scale applications, it restarts containers that fail, replaces containers, kills containers that don't respond to your user-defined health check, and doesn't advertise them to clients until they are ready to serve.
+In other words, Kubernetes orchestrates a series, if not all, of day 2 operations related to the availability of applications to ensure business continuity with a reduce friction or burden on the Operational teams.
+
 ## modernizing legacy systems
 
 Before deploying Kubernetes and deploying a first workload, it is important to address terminology, concepts and practices for a successful transformation journey. Often, an application transformation from legacy to microservices will go through a step called a "lift and shift", but what does it mean? 
@@ -36,6 +41,16 @@ The journey is depending on multiple factors that are directly set by an organiz
 
 Considering at least the above along with the organization needs, business drivers and targets will ensure the appropriate approach will be taken to reduce the risks of such transformation.
 It is worth considering that a lift and shift should be considered as an intermediate or transient step in the modernization journey allowing the organization to move smoothly towards a Kubernetes platform with a reduced impact of change while the organization starts building the appetite within the IT and Application departments.
+
+
+## practices
+
+The first part, discussing about modernizing legacy systems, gave an overview about options for existing applications to be migrated from legacy systems to a Kubernetes platform but it does not cover the paradigm shift from a project delivery and day-to-day standpoint.
+
+Kubernetes as a platform offers a wide range of abstractions for all the different usual infrastructure layers like the network, compute, OS, availability, elasticity, and more. But Kubernetes as platform offers a new way of addressing and consuming these components via the usage of a configuration file defining a desired state rather than command line to be executed. The configuration file containing the desired state for the ports being used by the application or the usage of persistent volume will be process and executed by Kubernetes orchestrating all these components. 
+
+
+
 
 ### application transformation
 
