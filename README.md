@@ -34,7 +34,7 @@ Application modernization comes into multiple forms and the most seen are the fo
 - rebuilding; redesigning and rewriting the application component from scratch while preserving its scope and specifications. 
 - replacing; finding an off-the-shelf replacement due to the high cost of all previous options.
 
-### Ahich approach
+### Which approach
 The journey is depending on multiple factors that are directly set by an organization or inherent from the legacy systems. Three ususal key metrics are:
 - cost and time; usually projects have budget and timeline associated with the scope which will define organically the choice between any of the modernizing technics. 
 - knowledge; how much is known about the application and dependencies? Is there still existing knowledge within the organization? Is there any consulting firm on the market still having knowledge about the application and its internals? 
@@ -49,8 +49,18 @@ The first part, discussing about modernizing legacy systems, gave an overview ab
 
 Kubernetes as a platform offers a wide range of abstractions for all the different usual infrastructure layers like the network, compute, OS, availability, elasticity, and more. But Kubernetes as platform offers a new way of addressing and consuming these components via the usage of a configuration file defining a desired state rather than command line to be executed. The configuration file containing the desired state for the ports being used by the application or the usage of persistent volume will be process and executed by Kubernetes orchestrating all these components. 
 
+Two buzz words have to be considered and adopted to ensure leveraging the best out of Kubernetes; [Agile](https://en.wikipedia.org/wiki/Agile_software_development) and [DevOps](https://en.wikipedia.org/wiki/DevOps). Let's have a short introduction to both.
 
+### Agile
+From the Wikipedia definition of [Agile](https://en.wikipedia.org/wiki/Agile_software_development), one highlight is in direct link with Kubernetes: 
+> it encourages flexible responses to changes in requirements, resource availability, and understanding of the problems to be solved.
+The concept of flexible/flexibility is one of the main benefits of Kubernetes and will drive the transformation of IT landscape. 
 
+### DevOps
+From the Wikipedia definition of [DevOps](https://en.wikipedia.org/wiki/DevOps), one highlight is in direct link with Kubernetes:
+> DevOps is a set of practices that combines software development (Dev) and IT operations (Ops). It aims to shorten the systems development life cycle and provide continuous delivery with high software quality
+
+When both Agile and DevOps are combined and adopted, an organization can then quickly react to changes by having a flexible IT landscape along with short development and delivery cycles which correspond to the Kubernetes mission statement. 
 
 ### application transformation
 
