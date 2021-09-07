@@ -9,7 +9,7 @@ Table of Content:
 * [Practices](#practices)
      * [Agile](#agile)
      * [DevOps](#devops)
-* []() 
+     * [Mandatory practices](#mandatory-practices)
 
 ## Intro
 This repository provides the content of a [conversation led webinar](https://www.youtube.com/watch?v=BnR21f4-trk) between [Raif](https://www.linkedin.com/in/raif-ahmed-2537a7184/) and [Rom](https://www.linkedin.com/in/rvandepoel/) held by StorageOS on August 18th 2021 about how to onboarding Kubernetes within an organization and what application transformation means.
@@ -86,7 +86,7 @@ IaC or [Infrastructure as Code](https://en.wikipedia.org/wiki/Infrastructure_as_
 - a tracking mechanism of any changes made on the Kubernetes cluster that are not in-sync with the configuration files hosted on the Git repository
 - a reconciliation engine to address the drfit between Kubernetes and the Git repository
 
-
+<!-- 
 
 ### application transformation
 
@@ -131,7 +131,7 @@ The above is a simplier version of something commonly seen within medium to larg
 
 
 
-
+ -->
 
 
 
