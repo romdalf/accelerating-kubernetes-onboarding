@@ -1,5 +1,3 @@
-# Accelerating kubernetes onboarding and application transformation  
-
 Table of Content:
 * [Intro](#intro)
 * [Context](#context)
