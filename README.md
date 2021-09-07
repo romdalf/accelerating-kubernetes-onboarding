@@ -12,7 +12,7 @@ Table of Content:
      * [Mandatory practices](#mandatory-practices)
 
 ## Intro
-This repository provides the content of a [conversation led webinar](https://www.youtube.com/watch?v=BnR21f4-trk) between [Raif](https://www.linkedin.com/in/raif-ahmed-2537a7184/) and [Rom](https://www.linkedin.com/in/rvandepoel/) held by StorageOS on August 18th 2021 about how to onboarding Kubernetes within an organization and what application transformation means.
+This repository provides the content of a [conversation led webinar](https://www.youtube.com/watch?v=BnR21f4-trk) between [Raif](https://www.linkedin.com/in/raif-ahmed-2537a7184/) and [Rom](https://www.linkedin.com/in/rvandepoel/) held by [StorageOS](https://storageos.com) on August 18th 2021 about how to onboarding Kubernetes within an organization and what application transformation means.
 
 The content is for educational purposes, is linked to field experience, and, for the demo, tested on Google Cloud. The content can be reused freely as-is. Both Red Hat Services and StorageOS Customer Success are available to provide the audience with the supporting experience in such journey. 
 
