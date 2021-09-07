@@ -74,12 +74,17 @@ When both Agile and DevOps are combined and adopted, an organization can then qu
 
 ### mandatory practices
 [Dozens if not hundreds of practices](https://openpracticelibrary.com/) exist and could help teams to build faster. However, it's important to start walking before running. Therefor, these two practices will be a perfect starting point for a smooth adoption of Kubernetes, and Agiles and DevOps practices.
+The below definitions give an overview of the practices while the demo will highlight the usage from a technical standpoint. 
 
 #### IaC
-IaC or [Infrastructure as Code](https://en.wikipedia.org/wiki/Infrastructure_as_code) provides a centralized reference of all the configuration files defining the desired state of any infrastructure components related to Kubernetes or not, and a collaborative way for members of one or multiple teams to review, approve, and carry changes to the infrastructure. 
-The practices will depend on a Git service that will act as a central repository providing the necessary features to support to [four eyes principle](https://www.openriskmanual.org/wiki/Four_Eyes_Principle).
+IaC or [Infrastructure as Code](https://en.wikipedia.org/wiki/Infrastructure_as_code) uses a [Git service](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners) to provide a centralized repository for all the configuration files defining the desired state of any infrastructure components related to Kubernetes or not, and a collaborative way for members of one or multiple teams to create, edit, review, and approve any changes before committing them by using an engine like Ansible to read and apply changes to the infrastructure. 
 
-
+#### GitOps
+[GitOps](https://www.redhat.com/en/topics/devops/what-is-gitops) could be seen as an evolution of IaC or complementing IaC by providing an enginer on steroids. While IaC on its own is a colleciton a configuration, the concept of GitOps will provide the followings:
+- an engine to apply to Kubernetes the configuration files hosted in the Git repository
+- a tracking mechanism of any changes made on the configuration hosted in the Git repository and highlight the changes 
+- a tracking mechanism of any changes made on the Kubernetes cluster that are not in-sync with the configuration files hosted on the Git repository
+- a reconciliation engine to address the drfit between Kubernetes and the Git repository
 
 
 
