@@ -72,7 +72,7 @@ From the Wikipedia definition of [DevOps](https://en.wikipedia.org/wiki/DevOps),
 
 When both Agile and DevOps are combined and adopted, an organization can then quickly react to changes by having a flexible IT landscape along with short development and delivery cycles which correspond to the Kubernetes mission statement. 
 
-### mandatory practices
+### Mandatory practices
 [Dozens if not hundreds of practices](https://openpracticelibrary.com/) exist and could help teams to build faster. However, it's important to start walking before running. Therefor, these two practices will be a perfect starting point for a smooth adoption of Kubernetes, and Agiles and DevOps practices.
 The below definitions give an overview of the practices while the demo will highlight the usage from a technical standpoint. 
 
